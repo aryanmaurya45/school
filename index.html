@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maa Gyaneshvari Inter College</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: antiquewhite;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 100%;
+            padding: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            background-image: url(https://th.bing.com/th/id/OIP.BR0TCtpQCW1tu-O1INjsWwHaE7?w=243&h=180&c=7&r=0&o=5&pid=1.7);
+            background-size: contain;
+            font-size: clamp(30px, 8vw, 70px);
+            background-clip: text;
+            color: transparent;
+            animation: aryan linear 3s infinite;
+        }
+
+        @keyframes aryan {
+            to {
+                background-position-y: 500px;
+            }
+        }
+
+        .hero-section {
+            height: auto;
+            min-height: 500px;
+            width: 100%;
+            background-image: url('./m.jpeg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            padding: 20px;
+            animation: op linear 7s infinite;
+        }
+
+        @keyframes op {
+            to {
+                background-position-x: 300px;
+            }
+        }
+
+        .hero-section h2 {
+            margin-bottom: 15px;
+        }
+
+        .hero-section p {
+            margin-bottom: 10px;
+        }
+
+        .school-link {
+            transition: all ease-in-out 3s;
+            border-radius: 50%;
+            height: 150px;
+            width: 150px;
+            background-image: url('f.jpeg');
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 4px 4px 15px white;
+            border: 2px solid black;
+            margin: 20px auto;
+        }
+
+        .school-link:hover {
+            transform: rotate(360deg);
+        }
+
+        .school-link a {
+            text-decoration: none;
+            color: white;
+            font-weight: bolder;
+            text-align: center;
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-top: 60px;
+        }
+
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 30px;
+            }
+
+            .hero-section {
+                background-attachment: scroll;
+            }
+
+            .school-link {
+                height: 100px;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1><i><u>Maa Gyaneshvari Inter College & Children</u></i></h1>
+        
+        <div class="hero-section">
+            <h2>Purpose or Goals of the School</h2>
+            
+            <p>1. Name and explain the declared goals or purpose of this School</p>
+            
+            <p>2. Name and explain educational theories or philosophies to which people subscribe (or what mix of theories and philosophies to which people subscribe)</p>
+            
+            <p>3. Provide a "pedagogical creed" for the School that describes how those working at the School understand such things as:</p>
+            
+            <p>4. The purpose of the school</p>
+            
+            <p>5. How children learn</p>
+            
+            <p>6. Curricular organization</p>
+            
+            <div>
+                <p style="font-weight: 900; font-size: large;">(SEE DEWEY'S "MY PEDAGOGICAL CREED" FOR OTHER IDEAS):</p>
+            </div>
+            
+            <div class="school-link">
+                <a href="https://images.app.goo.gl/6rbgTZXqzA7otwMT9">Visit my school</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
